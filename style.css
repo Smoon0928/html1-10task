@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ header {
+  height: 50px;
+  background-color:#FF9A4B;
+}
+
+main {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.step-box {
+  width: 300px;
+  margin-right: 30px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+}
+
+@media screen and (max-width:768px) {
+  header {
+  height: 50px;
+  background-color:#FF9A4B;
+ }
+
+main {
+  width: 100%;
+  margin: 50px auto;
+  display: flex;
+ }
+
+.step-box {
+  width: 90%;
+  margin-bottom: : 20px;
+  padding: 10px;
+  position: relative;
+  background-color: #eee;
+ }
+}
